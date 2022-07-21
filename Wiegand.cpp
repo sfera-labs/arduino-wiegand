@@ -38,6 +38,8 @@ bool Wiegand::setup(void (*cbData0)(void),
   ::pinMode(_pinD1, pullUp ? INPUT_PULLUP : INPUT);
   ::attachInterrupt(digitalPinToInterrupt(_pinD0), cbData0, CHANGE);
   ::attachInterrupt(digitalPinToInterrupt(_pinD1), cbData1, CHANGE);
+  wiegandSetup(&_w, pulseIntervalMin_usec, pulseIntervalMax_usec,
+    pulseWidthMin_usec, pulseWidthMax_usec);
   return true;
 }
 

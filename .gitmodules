@@ -1,4 +1,4 @@
-[submodule "libs/wiegand-c-lib"]
-	path = libs/wiegand-c-lib
+[submodule "src/libs/wiegand-c-lib"]
+	path = src/libs/wiegand-c-lib
 	url = https://github.com/sfera-labs/wiegand-c-lib
 	branch = master

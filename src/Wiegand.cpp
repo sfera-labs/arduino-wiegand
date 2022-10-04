@@ -16,8 +16,6 @@
 #include "Wiegand.h"
 #include <Arduino.h>
 
-#include "libs/wiegand-c-lib/wiegand.c"
-
 Wiegand::Wiegand(int pinD0, int pinD1) {
   _pinD0 = pinD0;
   _pinD1 = pinD1;

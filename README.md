@@ -6,9 +6,10 @@ It is agnostic to data format (parity bits, card data, facility code, etc. are n
 For functional details read the documentation of [the C library](https://github.com/sfera-labs/wiegand-c-lib#readme) this library is based on.
 
 To install this library:
-```
-cd <your_arduino_libraries_dir>
-git clone --depth 1 --recursive https://github.com/sfera-labs/arduino-wiegand
-```
+
+- [Download this repo](https://github.com/sfera-labs/arduino-wiegand/archive/refs/heads/master.zip)
+- Open the Arduino IDE
+- Go to the menu *Sketch* > *Include Library* > *Add .ZIP Library...*
+- Select the downloaded zip file
 
 For a quick start, refer to the [examples](./examples).

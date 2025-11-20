@@ -5,7 +5,7 @@ It is agnostic to data format (parity bits, card data, facility code, etc. are n
 
 For functional details read the documentation of [the C library](https://github.com/sfera-labs/wiegand-c-lib#readme) this library is based on.
 
-To install this library:
+To install this library, search `Wiegand` in the Library Manager of the Arduino IDE, or do it manually:
 
 - [Download this repo](https://github.com/sfera-labs/arduino-wiegand/archive/refs/heads/master.zip)
 - Open the Arduino IDE
